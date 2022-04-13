@@ -1,10 +1,13 @@
 
 import './App.css';
+import DefiCompo from './components/DefiCompo';
+import WeProvide from './components/WeProvide';
 
 function App() {
   return (
     <div className="">
-     <h1>omar ali</h1>
+      <WeProvide/>
+      <DefiCompo/>
     </div>
   );
 }

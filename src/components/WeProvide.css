@@ -1,0 +1,23 @@
+.we-provide{
+ padding: 20px;
+ margin-top: 35px;
+}
+.we-provide .provide-body{
+  margin-top: 25px;
+  background: linear-gradient(to right, #FFFFFF, #2F7FEB );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-gradient{
+/* border: 0px solid green; */
+  border-radius: 50%;
+  position: absolute;
+  width: 600px;
+  height:400px;
+  left: 269px;
+  top: 147px;
+  background-image: linear-gradient(to left, #1FC3E7 , #1F34E7  );
+  /* background-color: red; */
+  opacity: 0.35;
+  filter: blur(250px);
+}
