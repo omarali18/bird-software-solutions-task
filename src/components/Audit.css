@@ -1,0 +1,16 @@
+.nionTwo{
+    /* margin-left: 180px; */
+    position: relative;
+}
+.link2{
+    position: absolute;
+    left: 40px;
+    /* right: 90px; */
+    top: -46px
+    /* bottom: 5px; */
+}
+.neon2{
+    position: absolute;
+    top: -40px;
+    right: 80px;
+}
