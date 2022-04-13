@@ -12,7 +12,7 @@ const WeProvide = () => {
         <Box sx={{ flexGrow: 1, mt:20, ml:"250px"}}>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
          
-            <Grid xs={2} sm={4} md={6}  >
+            <Grid xs={2} sm={4} md={6} sx={{paddingLeft:"120px"}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"39px", color:"white"}} variant="">We provide The Best To Protect Your Users And Their Investments</Typography>
