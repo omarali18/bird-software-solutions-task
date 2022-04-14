@@ -13,7 +13,6 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-gradient{
-/* border: 0px solid green; */
   border-radius: 50%;
   position: absolute;
   width: 600px;
@@ -22,7 +21,6 @@
   left: 50%;
   top: 50%;
   background-image: radial-gradient(circle at 50% 50%, #1FC3E7 , #2F7FEB  );
-  /* background-repeat: ; */
   opacity: 0.35;
   filter: blur(100px);
 }
@@ -30,8 +28,84 @@
   display: flex;
   justify-content: center;
 }
+
+
+
+.container .card{
+  position: relative;
+  width: 374px;
+  height: 510px;
+  padding-top: 20px;
+  /* margin: 30px; */
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+  border: 2px solid white;
+  border-radius: 15px;
+  background: rgba(255, 255, 225, .1);
+  overflow: hidden;
+  display: flex;
+  backdrop-filter: blue(5px);
+}
+.container .card .allVactors {
+  position: relative;
+}
+.container .card .nion {
+  width: 100px;
+}
+.container .card .topVactor {
+  position: absolute;
+  height: 60px;
+  left: 49px;
+  top: 51px;
+}
+.container .card .circle1 {
+  position: absolute;
+  left: 44px;
+  top: 170px;
+}
+.container .card .bottomVactor {
+  height: 350px;
+  position: absolute;
+  left: 49px;
+  top: 109px;
+}
+.container .card .circle2 {
+  position: absolute;
+  left: 44px;
+  bottom: 200px;
+}
+
+.grassText{
+  margin-top: 40px;
+}
+.grassText div{
+  margin-bottom: 30px;
+}
+.grassText .title{
+  font-weight: 700;
+  font-size: 41px;
+}
+.grassText .detail{
+  font-weight: 700;
+  font-size: 22px;
+}
+
 @media only screen and (max-width: 600px)  {
     .centerAlign img{
         width: 400px;
     }
+    .bg-gradient{
+        width: 450px;
+      }
+      .container .card .circle1 {
+        /* position: absolute;
+        left: 44px;
+        top: 170px; */
+        width: 30px;
+      }
+      .container .card .circle2 {
+        /* position: absolute;
+        left: 44px;
+        bottom: 200px; */
+        width: 30px;
+      }
 }

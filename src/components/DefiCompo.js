@@ -13,7 +13,7 @@ const DefiCompo = () => {
         <Box sx={{ flexGrow: 1, mt:20}}>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid xs={4} sm={8} md={12} lg={6} sx={{display:"flex", justifyContent:"center"}} className="centerAlign">
+            <Grid xs={4} sm={8} md={12} lg={6}  className="centerAlign">
               <Box>
                 <img src={topImg} alt="" />
                 <div className='nionOne'>

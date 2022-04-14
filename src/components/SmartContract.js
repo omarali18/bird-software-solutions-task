@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import "./DefiCompo.css"
+import "./SmartContract.css"
 import { Typography } from '@mui/material';
 import Neon1 from "../images/nion1O.svg"
 import link1 from "../images/Line 1.svg"
@@ -13,12 +13,12 @@ const SmartContract = () => {
         <Box sx={{ flexGrow: 1, mt:20}}>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid xs={4} sm={8} md={12} lg={6} sx={{paddingLeft:"120px", mt:'-120px'}}className="centerAlign">
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{ mt:'-120px'}}className="centerAlign">
               <Box>
-                <img src={smartC} alt="" />
-                <div className='nionOne'>
-                    <img src={Neon1} className="neon1" alt="" />
-                    <img src={link1} className="link1" alt="" />
+                <img src={smartC} alt=""  className='smartImg1' />
+                <div className='niontree'>
+                    <img src={Neon1} className="neon3" alt="" />
+                    <img src={link1} className="link3" alt="" />
                 </div>
               </Box>
             </Grid>
