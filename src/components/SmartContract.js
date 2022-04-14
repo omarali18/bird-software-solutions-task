@@ -23,7 +23,7 @@ const SmartContract = () => {
               </Box>
             </Grid>
 
-            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:8}}} >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:8}, mt:{xs:12}}} >
              <Box className="we-provide" sx={{ marginTop:"60px"}}>
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#FFBF5F", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">SMART CONTRACT</Typography> <br />
@@ -35,7 +35,7 @@ const SmartContract = () => {
 
             
 
-            <Grid xs={4} sm={8} md={12} lg={6} sx={{mt:20, pl:{ xs:8}}} >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{mt:{lg:20, xs:8}, pl:{ xs:8}}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#4EFFBF", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">LAUNCHPAD</Typography> <br />

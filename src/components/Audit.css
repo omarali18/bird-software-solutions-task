@@ -17,14 +17,15 @@
     }
     .nionTwo .link2{
         position: absolute;
-        left: 0;
-        top: -46px;
-        width: 200px;
+        left: 65px;
+        top: -5px;
+        width: 250px;
     }
     .nionTwo .neon2{
         position: absolute;
-        top: -40px;
-        right: 0;
+        width: 100px;
+        top: -20px;
+        right: 50px;
     }
     
 }
