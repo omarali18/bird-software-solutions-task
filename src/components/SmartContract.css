@@ -1,13 +1,10 @@
 .niontree{
-    /* margin-left: 180px; */
     position: relative;
 }
 .link3{
     position: absolute;
     left: 240px;
-    /* right: 90px; */
     top: -48px
-    /* bottom: 5px; */
 }
 .neon3{
     position: absolute;
@@ -16,16 +13,13 @@
 }
 @media only screen and (max-width: 600px)  {
     .niontree{
-        /* margin-left: 180px; */
         position: relative;
     }
     .niontree .link3{
         position: absolute;
         left: 0;
-        /* right: 90px; */
         top: -46px;
         width: 200px;
-        /* bottom: 5px; */
     }
     .niontree .neon3{
         position: absolute;
@@ -33,9 +27,5 @@
         top: -40px;
         right: 50px;
     }
-    /* .smartImg1{
-        margin-right: 40px;
-        width: 350px;
-    } */
     
 }

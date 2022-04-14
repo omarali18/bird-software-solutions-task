@@ -1,13 +1,10 @@
 .nionTwo{
-    /* margin-left: 180px; */
     position: relative;
 }
 .link2{
     position: absolute;
     left: 40px;
-    /* right: 90px; */
     top: -48px
-    /* bottom: 5px; */
 }
 .neon2{
     position: absolute;
@@ -16,16 +13,13 @@
 }
 @media only screen and (max-width: 600px)  {
     .nionTwo{
-        /* margin-left: 180px; */
         position: relative;
     }
     .nionTwo .link2{
         position: absolute;
         left: 0;
-        /* right: 90px; */
         top: -46px;
         width: 200px;
-        /* bottom: 5px; */
     }
     .nionTwo .neon2{
         position: absolute;

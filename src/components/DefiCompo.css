@@ -14,14 +14,12 @@
 @media only screen and (max-width: 600px)  {
     .nionOne{
         margin-left: 20px;
-        /* position: relative; */
     }
     .nionOne .neon1{
         margin-top: -50px;
         width: 165px;
     }
     .nionOne .link1{
-        /* position: absolute; */
         width: 300px;
         left: 90px;
         top: -8px
