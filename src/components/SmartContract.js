@@ -10,10 +10,10 @@ import launchpad from "../images/launchpad.png"
 
 const SmartContract = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt:20, ml:"250px"}}>
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Box sx={{ flexGrow: 1, mt:20}}>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid  xs={2} sm={4} md={6} sx={{paddingLeft:"120px", mt:'-120px'}}>
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{paddingLeft:"120px", mt:'-120px'}}className="centerAlign">
               <Box>
                 <img src={smartC} alt="" />
                 <div className='nionOne'>
@@ -23,19 +23,19 @@ const SmartContract = () => {
               </Box>
             </Grid>
 
-            <Grid xs={2} sm={4} md={6}  >
-             <Box className="we-provide" sx={{mr:20, marginTop:"60px"}}>
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:8}}} >
+             <Box className="we-provide" sx={{ marginTop:"60px"}}>
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#FFBF5F", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">SMART CONTRACT</Typography> <br />
                 <Typography sx={{fontSize:"49px", lineHeight: "60px", color:"white", fontFamily: 'Montserrat'}} variant="h3">Experience the Revolution</Typography>
-                <Typography sx={{paddingTop:"10px", color:"rgba(255, 255, 255, 0.69)", fontSize:"30px", lineHeight: "46px", fontFamily: 'Montserrat',fontStyle: "normal", marginRight:"30px"}} variant='h6'>Merklabs has efficient developers with exceptional coding skills that can create any type of smart contract you desire and with scalable and secure code. You desire, we create it for you.</Typography>
+                <Typography sx={{paddingTop:"10px", color:"rgba(255, 255, 255, 0.69)", fontSize:"30px", lineHeight: "46px", fontFamily: 'Montserrat',fontStyle: "normal", marginRight:"47px"}} variant='h6'>Merklabs has efficient developers with exceptional coding skills that can create any type of smart contract you desire and with scalable and secure code. You desire, we create it for you.</Typography>
               </Box>
              </Box>
             </Grid>
 
             
 
-            <Grid xs={2} sm={4} md={6} sx={{mt:20, paddingLeft:"120px"}} >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{mt:20, pl:{ xs:8}}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#4EFFBF", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">LAUNCHPAD</Typography> <br />
@@ -45,8 +45,8 @@ const SmartContract = () => {
              </Box>
             </Grid>
 
-            <Grid  xs={2} sm={4} md={6} >
-              <Box sx={{ml:"30px"}}>
+            <Grid  xs={4} sm={8} md={12} lg={6} className="centerAlign" >
+              <Box sx={{ml:{lg:"30px"}}}>
                 <img src={launchpad} alt="" />
               </Box>
             </Grid>

@@ -10,17 +10,17 @@ import expert from "../images/expert.png"
 
 const Audit = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt:20, ml:"250px"}}>
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Box sx={{ flexGrow: 1, mt:20}}>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid  xs={2} sm={4} md={6} sx={{paddingLeft:"120px"}}>
+            <Grid  xs={4} sm={8} md={12} lg={6} className="centerAlign">
               <Box>
                 <img src={topImg} alt="" />
                 
               </Box>
             </Grid>
 
-            <Grid xs={2} sm={4} md={6}  >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:5}}} >
              <Box className="we-provide">
               <Box>
                   
@@ -36,18 +36,18 @@ const Audit = () => {
             </Grid>
 
             <Box sx={{ mt:6}}>
-                <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                    <Grid xs={2} sm={4} md={8} sx={{mt:20, paddingLeft:"120px"}} >
+                <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
+                    <Grid xs={4} sm={8} md={12} lg={6} sx={{mt:20, pl:{ xs:8}}}  >
                         <Box className="we-provide">
                             <Box>
                                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#618DFF", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">Expert</Typography> <br />
                                 <Typography sx={{fontSize:"49px", lineHeight: "60px", color:"white", fontFamily: 'Montserrat'}} variant="h3">Expert Review</Typography>
-                                <Typography sx={{paddingTop:"10px", color:"rgba(255, 255, 255, 0.69)", fontSize:"30px", fontFamily: 'Montserrat',fontStyle: "normal", marginRight:"47px"}} variant='h6'>Experience the guidance of various trained professionals and developers who are with you at every phase of your projects. We not only develop your project but also give out the best recommendations for turning it into a huge success</Typography>
+                                <Typography sx={{paddingTop:"10px", color:"rgba(255, 255, 255, 0.69)", fontSize:"30px", fontFamily: 'Montserrat',fontStyle: "normal", marginRight:"47px"}} variant='h6'>Experience the guidance of various trained professionals and developers who are with you at every phase of your projects. We not only develop your project but also give out the best recommendations for turning it into a huge success.</Typography>
                             </Box>
                         </Box>
                     </Grid>
 
-                    <Grid  xs={2} sm={4} md={4} sx={{mt:20 }}>
+                    <Grid  xs={4} sm={8} md={12} lg={6} sx={{mt:{lg:20, md:10, sm:8, xs:5} }} className="centerAlign">
                         <Box>
                             <img src={expert} alt="" />
                         </Box>

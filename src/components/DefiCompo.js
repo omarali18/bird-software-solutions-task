@@ -10,10 +10,10 @@ import dappa from "../images/dappa.png"
 
 const DefiCompo = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt:20, ml:"250px"}}>
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Box sx={{ flexGrow: 1, mt:20}}>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid  xs={2} sm={4} md={6} sx={{paddingLeft:"120px"}}>
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{display:"flex", justifyContent:"center"}} className="centerAlign">
               <Box>
                 <img src={topImg} alt="" />
                 <div className='nionOne'>
@@ -23,7 +23,7 @@ const DefiCompo = () => {
               </Box>
             </Grid>
 
-            <Grid xs={2} sm={4} md={6}  >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:5}, pt:{lg:10}}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#FF6392", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">DEFI</Typography> <br />
@@ -35,7 +35,7 @@ const DefiCompo = () => {
 
             
 
-            <Grid xs={2} sm={4} md={6} sx={{mt:20, paddingLeft:"120px"}} >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{mt:{lg:20}, pl:{xs:5}}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"29px", fontWeight: 600, lineHeight: "32px", letterSpacing: "0.1em", color:"#FFBF5F", fontFamily: 'Montserrat',fontStyle: "normal"}} variant="">DAPPS</Typography> <br />
@@ -45,7 +45,7 @@ const DefiCompo = () => {
              </Box>
             </Grid>
 
-            <Grid  xs={2} sm={4} md={6} sx={{ mt:"-30px"}}>
+            <Grid  xs={4} sm={8} md={12} lg={6} sx={{ mt:{lg:"-3vh"}}} className="centerAlign">
               <Box>
                 <img src={dappa} alt="" />
               </Box>

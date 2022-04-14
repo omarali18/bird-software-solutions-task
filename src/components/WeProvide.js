@@ -9,10 +9,10 @@ import topImg from "../images/defi.png"
 
 const WeProvide = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt:10, ml:"250px"}}>
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Box sx={{ flexGrow: 1, mt:10}}>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg:12 }}>
          
-            <Grid xs={2} sm={4} md={6} sx={{paddingLeft:"120px"}} >
+            <Grid xs={4} sm={8} md={12} lg={6} sx={{pl:{ xs:5}}} >
              <Box className="we-provide">
               <Box>
                 <Typography sx={{fontSize:"39px", color:"white"}} variant="">We provide The Best To Protect Your Users And Their Investments</Typography>
@@ -21,7 +21,7 @@ const WeProvide = () => {
               </Box>
              </Box>
             </Grid>
-            <Grid  xs={2} sm={4} md={6} >
+            <Grid  xs={4} sm={8} md={12} lg={6} sx={{mt:{md:10, sm:10, xs:10}, w:{xs:50}}} className="centerAlign" >
               <Box>
                 <img src={topImg} alt="" />
               </Box>
