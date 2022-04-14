@@ -9,7 +9,7 @@ import topImg from "../images/defi.png"
 
 const WeProvide = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt:20, ml:"250px"}}>
+        <Box sx={{ flexGrow: 1, mt:10, ml:"250px"}}>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
          
             <Grid xs={2} sm={4} md={6} sx={{paddingLeft:"120px"}} >

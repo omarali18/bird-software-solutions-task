@@ -6,6 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+#dotImg {
+    display: flex;
+    justify-content: right;
+    
+}
+#dotImg img{
+  margin-top: 10px;
+  width: 400px;
+  
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
