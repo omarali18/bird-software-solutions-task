@@ -96,16 +96,17 @@
     .bg-gradient{
         width: 450px;
       }
+      .container .card .topVactor {
+        left: -150px;
+        /* top: 51px; */
+      }
+      .container .card .bottomVactor {
+        left: -150px;
+      }
       .container .card .circle1 {
-        /* position: absolute;
-        left: 44px;
-        top: 170px; */
-        width: 30px;
+        width: 10px;
       }
       .container .card .circle2 {
-        /* position: absolute;
-        left: 44px;
-        bottom: 200px; */
-        width: 30px;
+        width: 10px;
       }
 }
